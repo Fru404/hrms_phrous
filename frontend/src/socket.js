@@ -2,7 +2,6 @@ import config from "../../../../sites/common_site_config.json"
 const socketio_port = config.socketio_port
 
 import { io } from "socket.io-client"
-import { getCachedListResource } from "frappe-ui/src/resources/listResource"
 
 
 import { getCachedListResource } from "frappe-ui/src/resources/listResource"
